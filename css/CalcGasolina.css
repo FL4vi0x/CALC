@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/6163978.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #ff1e02;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #ff1e02;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 120px);
+    padding: 20px 0;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;  /* Ajuste para largura do form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centralizar conteúdo do form */
+}
+
+fieldset {
+    border: 1px solid #ccc;  /* Adiciona borda ao fieldset */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;  /* Centraliza o texto do fieldset */
+    width: 100%;  /* Ajuste para ocupar toda a largura */
+}
+
+form label {
+    margin-bottom: 10px;
+    font-size: 1em;
+    text-align: left;
+    width: 100%;  /* Ajuste para ocupar toda a largura */
+}
+
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;  /* Ajuste para largura do input */
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;  /* Ajuste para largura do botão */
+    font-size: 1em;  /* Ajuste do tamanho da fonte */
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    font-size: 1em;
+    width: 100%;  /* Ajuste para largura do parágrafo */
+    text-align: left;  /* Alinha texto à esquerda */
+    margin-bottom: 10px;
+}

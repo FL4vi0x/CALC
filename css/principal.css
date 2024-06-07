@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/6163978.jpg'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgb(185, 16, 16);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+}
+
+header .logo {
+    display: block;
+    margin: 0 auto;
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+main {
+    text-align: center;
+    padding: 1em;
+}
+
+.highlighted-text {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Adiciona sombra ao texto */
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #fff; /* Fundo branco */
+    color: #000; /* Texto preto */
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Animação */
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05); /* Aumenta o tamanho do botão */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.track {
+    position: relative;
+    width: 80%;
+    height: 188px; /* Ajuste a altura da pista conforme necessário */
+    overflow: hidden;
+    border: 2px solid #000;
+}
+
+.track img#background {
+    width: 100%;
+    height: auto;
+}
+
+.track img#car {
+    position: absolute;
+    bottom: 10px; /* Ajuste o valor para posicionar o carro na pista */
+    left: 0;
+    width: 100px; /* Ajuste o tamanho do carro conforme necessário */
+    height: auto;
+    transition: left 0.5s;
+}
+
+footer {
+    background-color: rgb(185, 16, 16);
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

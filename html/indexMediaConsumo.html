@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/CalcMedGasolina.css">
+    <title>Speed Math - Calcular Consumo Médio da Gasolina</title>
+</head>
+<body>
+    <header>
+        <a href="../html/principal.html"> <img src="../img/logo.png" alt="Logo" class="logo"></a>
+        <h1>Cálculo Médio do consumo do combustível</h1>
+    </header>
+    <main>
+        <div class="container">
+            <fieldset>Média consumo combustível</fieldset>
+            <div class="informacoes">
+                <ul>
+                    <li>Vá até um posto de combustível e zere o odômetro parcial</li>
+                    <li>Peça para encher o tanque do carro</li>
+                    <li>Rode pelo menos 200 KM</li>
+                    <li>Ao retornar ao posto, anote no formulário quantos quilômetros você percorreu</li>
+                    <li>Peça para encher o tanque novamente</li>
+                    <li>Veja a quantidade de litros que foi adicionada</li>
+                    <li>Adicione esta quantidade de litros no formulário</li>
+                </ul>
+            </div>
+            <form id="consumoForm">
+                <label for="input_km_rodado">Digite KM rodados:</label>
+                <input type="text" id="input_km_rodado" name="input_km_rodado"><br>
+                <label for="input_litros">Digite a quantidade de litros:</label>
+                <input type="text" id="input_litros" name="input_litros"><br>
+                <p id="resultado"></p>
+                <button id="calcularMedia" type="button">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        © 2024 F1 Matemática. Todos os direitos reservados.
+    </footer>
+    <script src="../scripts/consumoMedio.js"></script>
+</body>
+</html>

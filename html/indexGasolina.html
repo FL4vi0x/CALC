@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/CalcGasolina.css">
+    <title>Speed Math - Calcular Gasolina</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../html/principal.html"> <img src="../img/logo.png" alt="Logo" class="logo"></a>
+            <h1>Calcular gasto da gasolina</h1>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <form id="gasolinaForm">
+                <fieldset>
+                    <legend>Gasolina</legend>
+                    <label for="preco_gasolina">Digite o preço da gasolina:</label>
+                    <input id="preco_gasolina" type="text" name="preco_gasolina"><br>
+                    <p>Não sabe o consumo médio? <a href="../html/indexMediaConsumo.html">Calcule aqui</a></p>
+                    <label for="consumo_medio">Digite o consumo médio de gasolina do carro:</label>
+                    <input type="text" id="consumo_medio" name="consumo_medio"><br>
+                    <label for="distancia">Digite a distância a ser percorrida:</label>
+                    <input type="text" id="distancia" name="distancia"><br>
+                    <p id="resultado"></p>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        © 2024 F1 Matemática. Todos os direitos reservados.
+    </footer>
+    <script src="../scripts/custoViagem.js"></script>
+</body>
+</html>
